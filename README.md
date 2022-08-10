@@ -18,7 +18,10 @@ ESPhome apps for Home Assistant [jumping2000](https://github.com/jumping2000/esp
 - Install ESPhome: follow the istruction here: [ESPHOME HOME](https://esphome.io), you can use [HA ADDON](https://github.com/esphome/home-assistant-addon) or [DOCKER CONTAINER](https://hub.docker.com/r/esphome/esphome) or [Python](https://esphome.io/guides/installing_esphome.html)!
 - Configure secretes: [ESPhome FAQ](https://esphome.io/guides/faq.html)
 - Copy **common** folder in your **ESPhome folder**
-- Copy apps in your **ESPhome folder**
+- Copy apps yaml file in your **ESPhome folder**
+
+## Apps
+-  IKEA Vindriktning
 
 [img-hassio]:https://img.shields.io/badge/config_for-Hass.io-53c1f1.svg
 [img-esphome]:https://img.shields.io/badge/config_for-esphome.io-53c1f1.svg
