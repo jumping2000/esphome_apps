@@ -19,6 +19,7 @@ ESPhome apps for Home Assistant [jumping2000](https://github.com/jumping2000/esp
 - Configure secretes: [ESPhome FAQ](https://esphome.io/guides/faq.html)
 - Copy **common** folder in your **ESPhome folder**
 - Copy apps yaml file in your **ESPhome folder**
+- Personalize the **subsitutions** section in yaml file
 
 ## Apps
 -  IKEA Vindriktning
