@@ -1,6 +1,6 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/jumping2000/esphome_apps?style=for-the-badge) ![GitHub Release Date](https://img.shields.io/github/release-date/jumping2000/esphome_apps?style=for-the-badge) ![GitHub Releases](https://img.shields.io/github/downloads/jumping2000/esphome_apps/latest/total?color=purple&label=%20release%20Downloads&style=for-the-badge) ![GitHub All Releases](https://img.shields.io/github/downloads/jumping2000/esphome_apps/total?color=orange&label=Total%20downloads&style=for-the-badge)
 
-# ESPhome Apps for ESPHome and Home Assistant
+# ESPhome Apps for Home Assistant
 [![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg)](https://www.buymeacoffee.com/jumping)<span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a>
 
 ### Please [support our work with a donation](https://paypal.me/hassiohelp) and star this repository! Thanks
