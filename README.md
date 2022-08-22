@@ -23,6 +23,21 @@ ESPhome apps for Home Assistant [jumping2000](https://github.com/jumping2000/esp
 
 ## Apps
 -  IKEA Vindriktning
+-  Plug BLITZWOLF SHP2 con FSM (Finite State Machine) per simulare glistati di una lavatrice
+```mermaid
+stateDiagram-v2
+  direction LR
+  [*] --> Idle
+  Idle --> Riempimento: POWER_LOW
+  Lavaggio --> Risciacquo: POWER_LOW
+  Riempimento --> Lavaggio: POWER_HIGH
+  Risciacquo --> Lavaggio: POWER_HIGH
+  Riempimento --> Lavaggio: POWER_MEDIUM
+  Risciacquo --> Centrifuga: POWER_MEDIUM
+  Centrifuga --> Svuotare: CLEANING
+  Risciacquo --> Svuotare: CLEANING
+  Svuotare --> Idle: OPENING
+```
 
 [img-hassio]:https://img.shields.io/badge/config_for-Hass.io-53c1f1.svg
 [img-esphome]:https://img.shields.io/badge/config_for-esphome.io-53c1f1.svg
