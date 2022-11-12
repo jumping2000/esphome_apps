@@ -16,7 +16,7 @@ ESPhome apps for Home Assistant [jumping2000](https://github.com/jumping2000/esp
 
 ## Installation
 - Install ESPhome: follow the istructions here [ESPhome](https://esphome.io), you can use [HA addon](https://github.com/esphome/home-assistant-addon) or [Docker Container](https://hub.docker.com/r/esphome/esphome) or [Python](https://esphome.io/guides/installing_esphome.html)!
-- Configure secretes: [ESPhome FAQ](https://esphome.io/guides/faq.html)
+- Configure secrets: [ESPhome FAQ](https://esphome.io/guides/faq.html)
 - Copy **common** folder in your **ESPhome folder**
 - Copy apps yaml file in your **ESPhome folder**
 - Personalize the **subsitutions** section in yaml file
