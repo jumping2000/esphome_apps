@@ -23,7 +23,7 @@ ESPhome apps for Home Assistant [jumping2000](https://github.com/jumping2000/esp
 
 ## Apps
 -  IKEA Vindriktning
--  Plug BLITZWOLF SHP2 con FSM (Finite State Machine) per simulare glistati di una lavatrice
+-  Plug BLITZWOLF SHP2 with FSM (Finite State Machine) to model washing machine states 
 ```mermaid
 stateDiagram-v2
   direction LR
