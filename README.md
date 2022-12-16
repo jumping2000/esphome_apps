@@ -39,6 +39,20 @@ stateDiagram-v2
   Svuotare --> Idle: OPENING
 ```
 
+
+```mermaid
+stateDiagram-v2
+  direction LR
+  [*] --> Idle
+  Riscaldamento --> Mantenimento: POWER_LOW
+  Idle --> Riscaldamento: POWER_HIGH
+  Mantenimento --> Riscaldamento: POWER_HIGH
+  Riscaldamento --> Raffreddamento: COOLING
+  Mantenimento --> Raffreddamento: COOLING
+  Raffreddamento --> Idle: COOLING_PLUS
+  Mantenimento --> Idle: COOLING_PLUS
+```
+
 [img-hassio]:https://img.shields.io/badge/config_for-Hass.io-53c1f1.svg
 [img-esphome]:https://img.shields.io/badge/config_for-esphome.io-53c1f1.svg
 
